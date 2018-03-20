@@ -1,0 +1,54 @@
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: "Times New Roman", Times, serif;
+    font-variant: small-caps;
+}
+h2 {
+    color: black;
+    text-align: center;
+    font-variant: small-caps;
+}
+h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-variant: small-caps;
+    font-size: 22px;
+    display: inline;
+    color: white;
+}
+p {
+    color: black;
+    font-variant: normal;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+
+/* RESPONSIV */
+@media only screen
+    and (max-device-width: 700px)
+    and (orientation: portrait) {
+
+}
+@media only screen
+      and (max-device-width: 1200px)
+      and (min-device-width: 700px)
+      and (orientation: portrait) {
+
+}
